@@ -1,0 +1,10 @@
+@use "../utils/variables" as *;
+
+.layout__container {
+    background-color: $primary-dark-color;
+    min-height: calc(100vh - $footer-height);
+    padding-top: $header-height;
+    margin-bottom: $footer-height;
+    padding: 1.5rem 0;
+    color: $white;
+}

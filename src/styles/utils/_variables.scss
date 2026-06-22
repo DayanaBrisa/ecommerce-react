@@ -1,0 +1,57 @@
+
+$primary-color: #588a9f;
+$primary-dark-color: #5d98a4;
+$primary-superdark-color: #681461;
+$primary-light-color: #db9fdc;
+
+$secondary-color: #474373;
+$secondary-dark-color: #564fa0;
+$secondary-light-color: #B7C0EE;
+
+$tertiary-color: #fdb462;
+
+$success-color: rgb(66, 159, 66);
+$error-color: rgb(211, 106, 106);
+
+$dark-font-color: #111111;
+$light-font-color: #eee;
+
+$white: #fff;
+
+$overlay: rgba(17, 17, 17, 0.5);
+
+$header-height: 4.5rem;
+$footer-height: 2.25rem;
+
+$spacings: (
+    m: margin,
+    mt: margin-top,
+    mb: margin-bottom,
+    ml: margin-left,
+    mr: margin-right,
+    p: padding,
+    pt: padding-top,
+    pb: padding-bottom,
+    pl: padding-left,
+    pr: padding-right,
+);
+
+$grid-columns: 12;
+
+$breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+);
+
+$container-width: (
+    xs: 360px,
+    sm: 520px,
+    md: 720px,
+    lg: 880px,
+    xl: 1120px,
+    xxl: 1200px,
+)

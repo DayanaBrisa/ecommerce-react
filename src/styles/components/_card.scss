@@ -1,0 +1,29 @@
+@use "../utils/variables" as *;
+
+.card__product-container {
+    background-color: $secondary-light-color;
+    border: 1px solid $secondary-color;
+    border-radius: 0.5rem; 
+    color: $dark-font-color;
+    .card__product-image {
+        width: 100%;
+        border-top-left-radius: 0.5rem; 
+        border-top-right-radius: 0.5rem; 
+    }
+    .card__product-content {
+        padding: 1rem; 
+        display: flex; 
+        flex-direction: column;
+        gap: 0.5rem; 
+        .card__product-description {
+            font-size: 14px;
+        }
+        .card__product-amount {
+            font-weight: 600;
+        }
+        .card__product-content-button {
+            display: flex;
+            justify-content: end;
+        }
+    }
+}
