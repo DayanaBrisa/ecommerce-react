@@ -23,7 +23,7 @@ function CartItem({
                     <Text as="span">Cantidad: {quantity}</Text>
                 </Col>
                 <Col size={{xs: 6, md: 3}} className="cart-item__amount-container">
-                    <Text as="span" className="cart-item__card-amount">$ {price * quantity},-</Text>
+                    <Text as="span" className="cart-item__card-amount">$ {price * quantity}</Text>
                 </Col>
             </Grid>
         </Box>

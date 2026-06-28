@@ -2,6 +2,7 @@ import api from "./"
 
 export const getProducts = async (page) => {
     const response = await api.get(`/products?limit=12&pageNumber=${page}`)
+    console.log(response.data)
     return response.data
 }
 

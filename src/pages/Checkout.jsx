@@ -45,7 +45,7 @@ function Checkout() {
                         <Text as="p">No tienes productos seleccionados</Text>
                     )
                 }
-                <Text as="h3">Total a pagar: $ {totalAmount},-</Text>
+                <Text as="h3">Total a pagar: $ {totalAmount}</Text>
             </Box>
             <Box className="cart__actions">
                 {

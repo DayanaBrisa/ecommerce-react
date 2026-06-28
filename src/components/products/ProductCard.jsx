@@ -29,7 +29,7 @@ function ProductCard({
                 <Box className="card__product-content">
                     <Text as="h3">{name}</Text>
                     <Text className="card__product-description">Descipción corta: {shortDescription}</Text>
-                    <Text as="span" className="card__product-amount">$ {price},-</Text>
+                    <Text as="span" className="card__product-amount">$ {price}</Text>
                     <CounterProducts
                         product={{
                             id,
